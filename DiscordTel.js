@@ -221,12 +221,12 @@ client.once("ready", async() => {
 			}
 		}
 	}
-	// if (client.channels.has("281815661863501824")) {
-	// 	client.channels.get("281815661863501824").join().then(connection => {
-	// 		// TODO
-	// 		connection.play("https://www.youtube.com/watch?v=66tQR7koR_Q");
-	// 	});
-	// }
+	 if (client.channels.has("281815661863501824")) {
+	 	client.channels.get("281815661863501824").join().then(connection => {
+	 		// TODO
+	 		connection.play("https://www.youtube.com/watch?v=66tQR7koR_Q");
+	 	});
+	 }
 });
 
 client.on("guildCreate", guild => {
